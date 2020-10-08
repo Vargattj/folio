@@ -1,0 +1,29 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  color: #252934;
+  background: #fafafa;
+  font-size: 62.5%;
+  font-family: "Overlock", Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+  height: 100vh;
+
+  h1 {
+    margin: 0.67em 0;
+    margin-top: 0.67em;
+    margin-right: 0px;
+    margin-bottom: 0.67em;
+    margin-left: 0px;
+  }
+}
